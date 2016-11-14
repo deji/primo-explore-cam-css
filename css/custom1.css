@@ -1,0 +1,216 @@
+prm-primary-bg.prm-hue1, prm-search-bar.prm-hue1, prm-spinner.prm-hue1.overlay-cover.light-on-dark:after, prm-topbar .top-nav-bar {
+    background-color: #000;
+}
+
+prm-topbar .md-button:hover
+    {background-color: #000;
+}
+
+md-fab-toolbar md-toolbar {
+    background-color: #000!important;
+}
+
+prm-search-bar {
+    background-color: #404040;
+    background-image: url("http://www.lib.cam.ac.uk/libraries_directory/images/logo.png");
+    background-position: 15% 20%;
+    background-repeat: no-repeat;
+    color: #404040;
+    font-size: inherit;
+    padding-top: 8em;
+}
+
+.md-button.button-confirm {
+    color: #fff;}
+
+prm-search-bar .simple-search-wrapper .search-actions .md-button {
+    background-color: #000;
+    padding:0 1.2em;
+}
+
+
+/*the search butten*/
+.md-button.button-confirm._md-focused:not([disabled]),
+.md-button.button-confirm.hovered:not([disabled]),
+.md-button.button-confirm.md-focused:not([disabled]),
+.md-button.button-confirm:focus:not([disabled]),
+.md-button.button-confirm:hover:not([disabled]) {
+     background-color: #000;
+    border: medium none;
+    border-radius: 0;
+    color: #fff;
+    margin: 0;
+    min-width: 0;
+    padding: 0 1.2em;
+    transition: background-color 0.3s ease 0s;
+    color: #000;
+    background-color: #106470;
+
+}
+
+
+/*the color of the loading animation*/
+prm-spinner.half-transparent .diamond{
+    background-color:#fff;
+}
+
+
+/*the text coler in the search pox*/
+input::-webkit-input-placeholder {
+    color: #404040 !important;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+    color: #404040 !important;
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+    color: #404040 !important;
+}
+
+input:-ms-input-placeholder {
+    color: #404040 !important;
+}
+
+.md-button.button-confirm {
+	background-color: #000;
+}
+
+prm-request-services,prm-service-button, /*prm-location-items h3,prm-location-items md-list, prm-location-items div.layout-column.layout-row,*/prm-location-items .bar.alert-bar, prm-opac md-divider:first-of-type{
+    display:none!important;
+}
+
+/*prm-location-items .margin-bottom-medium, md-tab-content .tab-content-header{
+    cursor: pointer;
+}*/
+
+
+.custom-request-panel{
+    opacity: 1;
+    background-color: #f3f3f3;
+}
+._md-panel-backdrop{
+    background-color: #4a667c;
+    opacity: 0.48;
+}
+.md-panel-outer-wrapper{
+    height:150%;
+}
+
+/* disable non-working reference management tools on brief results page */
+/* disable non-working reference management tools on details page */
+prm-action-list md-tab-item:nth-child(3),
+prm-action-list md-tab-item:nth-child(4) {
+    display: none;
+}
+
+/* rsi widget */
+.action-list-addon-text {
+
+
+    font-size: .75em;
+    font-weight: 400;
+
+    letter-spacing: 0.05em;   
+    color: rgba(0, 0, 0, 0.57);
+
+    text-align: center;
+    white-space: nowrap;
+
+    text-transform: uppercase;
+    padding-top:2px;
+
+    /*overflow: hidden;*/
+
+    text-overflow: ellipsis;
+
+}
+
+
+
+md-tabs.icon-tabs {
+
+  display:inline-block;
+  width:70%;
+
+  }
+
+
+prm-full-view .action-list-addon, prm-full-view .action-list-addon, prm-search-result-list .action-list-addon {
+  display:inline-block;
+  vertical-align:top;
+  min-width: 4em;
+  padding: .5em 0;
+  line-height: 24px;
+  margin-top: 6px;
+   
+}
+
+
+/* Add the RIS export for Zotero */
+.action-list-addon-text {
+    font-size: .75em;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color: rgba(0, 0, 0, 0.57);
+    text-align: center;
+    white-space: nowrap;
+    text-transform: uppercase;
+    padding-top:2px;
+    /*overflow: hidden;*/
+    text-overflow: ellipsis;
+}
+
+ 
+md-tabs.icon-tabs {
+  display:inline-block;
+  width:70%;
+  }
+ 
+ 
+prm-search-result-list .action-list-addon {
+  display:inline-block;
+  vertical-align:top;
+  min-width: 4em;
+  padding: .5em 0;
+  line-height: 24px;
+  margin-top: 6px;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(http://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=latin-ext,latin) ; 
+ /* src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(https://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGNbE_oMaV8t2eFeISPpzbdE.woff) format('woff'); */
+
+
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(http://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=latin-ext,latin) ; 
+/*  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v9/ODelI1aHBYDBqgeIAH2zlBM0YzuT7MdOe03otPbuUS0.woff) format('woff'); */
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+src: local('Source Sans Pro Semibold'), local('SourceSansPro-Semibold'), url(http://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=latin-ext,latin) ; 
+/*  src: local('Source Sans Pro Semibold'), local('SourceSansPro-Semibold'), url(https://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGJ6-ys_j0H4QL65VLqzI3wI.woff) format('woff');*/
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+src: local('Source Sans Pro bold'), local('SourceSansPro-bold'), url(http://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=latin-ext,latin) ; 
+/*  src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url(https://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGFkQc6VGVFSmCnC_l7QZG60.woff) format('woff'); */
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+src: local('Source Sans Pro Italic'), local('SourceSansPro-It'), url(http://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=latin-ext,latin) ; 
+/*  src: local('Source Sans Pro Italic'), local('SourceSansPro-It'), url(https://fonts.gstatic.com/s/sourcesanspro/v9/M2Jd71oPJhLKp0zdtTvoMzNrcjQuD0pTu1za2FULaMs.woff) format('woff'); */
+}

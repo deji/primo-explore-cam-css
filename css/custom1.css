@@ -84,6 +84,10 @@ prm-request-services,prm-service-button, /*prm-location-items h3,prm-location-it
     cursor: pointer;
 }*/
 
+/* allow export to ris action to span multiple lines */
+prm-action-list md-tab-item span {
+  line-height: normal;
+}
 
 .custom-request-panel{
     opacity: 1;
@@ -105,7 +109,7 @@ md-tabs.icon-tabs {
 
 }
 
-
+/*
 prm-full-view .action-list-addon, prm-full-view .action-list-addon, prm-search-result-list .action-list-addon {
   display:inline-block;
   vertical-align:top;
@@ -114,13 +118,8 @@ prm-full-view .action-list-addon, prm-full-view .action-list-addon, prm-search-r
   line-height: normal;
   margin-top: 6px;
    
-}
+}*/
  
-md-tabs.icon-tabs {
-  display:inline-block;
-  width:70%;
-}
-
 @font-face {
   font-family: 'Source Sans Pro';
   font-style: normal;

@@ -157,3 +157,13 @@ src: local('Source Sans Pro bold'), local('SourceSansPro-bold'), url(http://font
 src: local('Source Sans Pro Italic'), local('SourceSansPro-It'), url(http://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=latin-ext,latin) ; 
 /*  src: local('Source Sans Pro Italic'), local('SourceSansPro-It'), url(https://fonts.gstatic.com/s/sourcesanspro/v9/M2Jd71oPJhLKp0zdtTvoMzNrcjQuD0pTu1za2FULaMs.woff) format('woff'); */
 }
+
+prm-request-services,prm-service-button, /*prm-location-items h3,prm-location-items md-list, prm-location-items div.layout-column.layout-row,*/prm-location-items .bar.alert-bar, prm-opac md-divider:first-of-type{
+    display:none!important;
+}
+
+
+body.md-dialog-is-showing{
+	overflow-x:visible!important;
+}
+

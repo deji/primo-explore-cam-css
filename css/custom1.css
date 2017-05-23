@@ -10,7 +10,7 @@ md-fab-toolbar md-toolbar {
     background-color: #000!important;
 }
 
-prm-search-bar {
+prm-search-bar, prm-browse-search-bar {
     background-color: #404040;
     background-image: url("http://www.lib.cam.ac.uk/libraries_directory/images/logo.png");
     background-position: 15% 20%;
@@ -161,4 +161,3 @@ src: local('Source Sans Pro Italic'), local('SourceSansPro-It'), url(http://font
 body.md-dialog-is-showing{
 	overflow-x:visible!important;
 }
-

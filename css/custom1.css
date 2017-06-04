@@ -161,3 +161,6 @@ src: local('Source Sans Pro Italic'), local('SourceSansPro-It'), url(http://font
 body.md-dialog-is-showing{
 	overflow-x:visible!important;
 }
+
+/* hide browse feature in main menu */
+#dialogContent_98 prm-main-menu md-card:nth-child(8) {display: none;}

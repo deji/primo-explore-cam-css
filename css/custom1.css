@@ -163,4 +163,5 @@ body.md-dialog-is-showing{
 }
 
 /* hide browse feature in main menu */
-#dialogContent_98 prm-main-menu md-card:nth-child(8) {display: none;}
+prm-main-menu md-content md-card:nth-child(8) {display: none;}
+/**/

@@ -20,6 +20,10 @@ prm-search-bar, prm-browse-search-bar {
     padding-top: 7em;
 }
 
+.md-button {
+    margin: 0;
+}
+
 .md-button.button-confirm {
     color: #fff;}
 
@@ -35,13 +39,12 @@ prm-search-bar .simple-search-wrapper .search-actions .md-button {
 .md-button.button-confirm.md-focused:not([disabled]),
 .md-button.button-confirm:focus:not([disabled]),
 .md-button.button-confirm:hover:not([disabled]) {
-     background-color: #000;
+    background-color: #000;
     border: medium none;
     border-radius: 0;
     color: #fff;
     margin: 0;
     min-width: 0;
-    padding: 0 1.2em;
     transition: background-color 0.3s ease 0s;
     color: #000;
     background-color: #106470;

@@ -13,11 +13,11 @@ md-fab-toolbar md-toolbar {
 prm-search-bar, prm-browse-search-bar {
     background-color: #404040;
     background-image: url("http://www.lib.cam.ac.uk/libraries_directory/images/logo.png");
-    background-position: 15% 20%;
+    background-position: 15% 15%;
     background-repeat: no-repeat;
     color: #404040;
     font-size: inherit;
-    padding-top: 7em;
+    padding-top: 6em;
 }
 
 .md-button {
@@ -29,7 +29,6 @@ prm-search-bar, prm-browse-search-bar {
 
 prm-search-bar .simple-search-wrapper .search-actions .md-button {
     background-color: #000;
-    padding:0 1.2em;
 }
 
 
@@ -39,15 +38,13 @@ prm-search-bar .simple-search-wrapper .search-actions .md-button {
 .md-button.button-confirm.md-focused:not([disabled]),
 .md-button.button-confirm:focus:not([disabled]),
 .md-button.button-confirm:hover:not([disabled]) {
-    background-color: #000;
     border: medium none;
     border-radius: 0;
     color: #fff;
     margin: 0;
     min-width: 0;
     transition: background-color 0.3s ease 0s;
-    color: #000;
-    background-color: #106470;
+    background-color: #45aab4;
 
 }
 
@@ -165,6 +162,21 @@ body.md-dialog-is-showing{
 	overflow-x:visible!important;
 }
 
-/* hide browse feature in main menu */
-prm-main-menu md-content md-card:nth-child(8) {display: none;}
-/**/
+/*red bar in front of advanced search, and text treatment*/
+.search-switch-buttons.hide-xs.layout-sm-column.layout-align-sm-start-stretch > button {
+    text-transform: capitalize;
+    font-size:18px;
+    border-left:5px solid #dd222f;
+}
+
+/*position of adv button */
+prm-search-bar .search-switch-buttons, prm-tags-search-bar .search-switch-buttons {
+    padding-top: 6.5em;
+}
+
+/*advanced serch button in mobile devise*/
+.zero-margin.md-icon-button.md-button.md-primoExplore-theme.md-ink-ripple.hide-gt-xs
+{
+    background-color: transparent;
+}
+  

@@ -179,4 +179,10 @@ prm-search-bar .search-switch-buttons, prm-tags-search-bar .search-switch-button
 {
     background-color: transparent;
 }
-  
+
+/* remove virtual browse - August 2017 release */
+#services-index [aria-label="Virtual Browse"],
+#virtualBrowse
+{
+    display:none !important;
+}

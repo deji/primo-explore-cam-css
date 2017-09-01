@@ -186,3 +186,34 @@ prm-search-bar .search-switch-buttons, prm-tags-search-bar .search-switch-button
 {
     display:none !important;
 }
+
+
+/* mobile display modifications pt 1 */
+@media only screen and (max-width: 599px) {
+    
+    prm-search-bar, prm-browse-search-bar {
+        background-color: #404040;
+        background-image: url("http://www.lib.cam.ac.uk/libraries_directory/images/logo.png");
+        background-position: 15% 9%;
+        background-repeat: no-repeat;
+        background-size: 200px 37px;
+        color: #404040;
+        font-size: inherit;
+        padding-top: 6em;
+    }
+    
+}
+
+/* mobile display modifications pt 2 */
+@media only screen and (min-width: 600px) and (max-width: 959px) {
+    
+    prm-search-bar, prm-browse-search-bar {
+        background-color: #404040;
+        background-image: none;
+        color: #404040;
+        font-size: inherit;
+        padding-top: 6em;
+    }
+    
+}
+    

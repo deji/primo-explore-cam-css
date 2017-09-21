@@ -216,4 +216,38 @@ prm-search-bar .search-switch-buttons, prm-tags-search-bar .search-switch-button
     }
     
 }
-    
+
+
+/* remove day and month fields for the publication date filter in advanced search */
+#advanced-search md-card.zero-margin.marginless-inputs.padded-container._md.md-primoExplore-theme.layout-column.flex-gt-sm-30.flex div div md-input-container:nth-child(1) md-select-value,
+#advanced-search md-card.zero-margin.marginless-inputs.padded-container._md.md-primoExplore-theme.layout-column.flex-gt-sm-30.flex div div md-input-container:nth-child(1) div,
+#advanced-search md-card.zero-margin.marginless-inputs.padded-container._md.md-primoExplore-theme.layout-column.flex-gt-sm-30.flex div div md-input-container:nth-child(2) {
+display:none;
+}
+
+
+#advanced-search md-card.zero-margin.marginless-inputs.padded-container._md.md-primoExplore-theme.layout-column.flex-gt-sm-30.flex div div:nth-child(4) md-input-container.underlined-input.md-icon-float,
+#advanced-search md-card.zero-margin.marginless-inputs.padded-container._md.md-primoExplore-theme.layout-column.flex-gt-sm-30.flex div div:nth-child(6) md-input-container.underlined-input.md-icon-float
+{
+  margin-left:-12rem
+}
+
+@media only screen and (min-width: 482px) and (max-width: 599px) {
+
+#advanced-search md-card.zero-margin.marginless-inputs.padded-container._md.md-primoExplore-theme.layout-column.flex-gt-sm-30.flex div div:nth-child(4) md-input-container.underlined-input.md-icon-float,
+#advanced-search md-card.zero-margin.marginless-inputs.padded-container._md.md-primoExplore-theme.layout-column.flex-gt-sm-30.flex div div:nth-child(6) md-input-container.underlined-input.md-icon-float
+{
+  margin-left:-28rem
+}
+
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1180px) {
+
+  #advanced-search md-card.zero-margin.marginless-inputs.padded-container._md.md-primoExplore-theme.layout-column.flex-gt-sm-30.flex div div:nth-child(4) md-input-container.underlined-input.md-icon-float,
+  #advanced-search md-card.zero-margin.marginless-inputs.padded-container._md.md-primoExplore-theme.layout-column.flex-gt-sm-30.flex div div:nth-child(6) md-input-container.underlined-input.md-icon-float
+  {
+    margin-left:-10rem
+  }
+}
+/******/

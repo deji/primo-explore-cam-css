@@ -166,12 +166,6 @@ body.md-dialog-is-showing{
 .search-switch-buttons.hide-xs.layout-sm-column.layout-align-sm-start-stretch > button {
     text-transform: capitalize;
     font-size:18px;
-    border-left:5px solid #dd222f;
-}
-
-/*position of adv button */
-prm-search-bar .search-switch-buttons, prm-tags-search-bar .search-switch-buttons {
-    padding-top: 0.5em;
 }
 
 /*advanced serch button in mobile devise*/

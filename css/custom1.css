@@ -245,3 +245,10 @@ display:none;
   }
 }
 /******/
+
+
+/*advanced search box moved to top a bit*/
+prm-search-bar .search-elements-wrapper.advanced-mode {
+    margin-top: -4em;
+}
+/****/

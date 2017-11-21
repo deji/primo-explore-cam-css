@@ -264,7 +264,8 @@ prm-search-bar .search-elements-wrapper.advanced-mode {
 [aria-label="TAGS"]{display:none !important;} /* added in Primo August 2017 release */
 
 /* Hide Tags on full list (ellipsis) */
-md-card.transparent-card:nth-child(1) {
+/* change nth-child index to 2 for Primo/Alma */
+md-card.transparent-card:nth-child(2) {
   display:none;
 }
 /******/

@@ -10,7 +10,7 @@ md-fab-toolbar md-toolbar {
     background-color: #000!important;
 }
 
-prm-search-bar, prm-browse-search-bar {
+prm-search-bar, prm-browse-search-bar, prm-atoz-search-bar {
     background-color: #404040;
     background-image: url("http://www.lib.cam.ac.uk/libraries_directory/images/logo.png");
     background-position: 15% 15%;
